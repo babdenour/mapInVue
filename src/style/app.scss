@@ -1,0 +1,25 @@
+@import 'reset';
+@import 'theme';
+
+:root {
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+	font-family: 'Montserrat', sans-serif;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	a,
+	span {
+		font-family: 'Montserrat', sans-serif;
+		color: #911c22;
+	}
+}
+
+//body {
+//#911c22 primary text all
+//#cd323c secondary icon gps iti
+//#cee1f2 encadrement buttom background color
+//}
