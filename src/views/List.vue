@@ -44,10 +44,8 @@ export default {
 	}
 
 	&__list {
-		padding: 0.3rem;
-		height: 50vh;
+		height: 52vh;
 		width: 90%;
-		margin-bottom: 0.6rem;
 	}
 }
 </style>

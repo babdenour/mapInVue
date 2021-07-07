@@ -57,11 +57,11 @@ export default {
 @import '../style/app.scss';
 
 h4 {
+	font-weight: bolder;
 	margin: 40px 0 0;
 }
 
 h5 {
-	font-weight: bolder;
 	margin-bottom: 0.5rem;
 }
 
@@ -78,16 +78,11 @@ li {
 	}
 }
 
-a {
-	color: #42b983;
-}
-
 .list {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	margin-top: 1rem;
 
 	p,
 	li {
@@ -97,7 +92,12 @@ a {
 	}
 
 	&__div-category {
+		height: 45vh;
 		overflow: auto;
+		scroll-snap-type: x mandatory;
+
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
 
 		&__letters {
 			display: flex;

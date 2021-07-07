@@ -13,10 +13,11 @@ export default {
 <style lang="scss">
 .encard {
 	width: 100%;
-	height: 10rem;
-}
-img {
-	width: 100%;
 	height: 100%;
+
+	img {
+		width: 100%;
+		height: 20vh;
+	}
 }
 </style>

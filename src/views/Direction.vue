@@ -12,15 +12,17 @@ export default {
 		<div class="top">
 			<encard-pub-c />
 		</div>
-		<div class="me-diriger__logo">
-			<img src="../assets/mapIn-logo-1.png" alt="logo" />
-		</div>
-		<div class="me-diriger__title">
-			<h1>
-				<router-link to="/map">me diriger</router-link>
-			</h1>
-			<!-- MOdal d'info user -->
-			<!-- <ModalAuth /> -->
+		<div class="center">
+			<div class="me-diriger__logo">
+				<img src="../assets/mapIn-logo-1.png" alt="logo" />
+			</div>
+			<div class="me-diriger__title">
+				<h1>
+					<router-link to="/map">me diriger</router-link>
+				</h1>
+				<!-- MOdal d'info user -->
+				<!-- <ModalAuth /> -->
+			</div>
 		</div>
 		<div class="bot">
 			<encard-pub-c />
@@ -32,8 +34,10 @@ export default {
 @import '../style/app.scss';
 
 .me-diriger {
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	align-items: stretch;
 
 	&__title {
 		padding-bottom: 2vh;
@@ -46,9 +50,9 @@ export default {
 				color: $red-primary;
 				border-radius: 0.5em;
 				border: 3px solid $red-secondary;
-
 				padding: 0.7rem;
 			}
+
 			a:hover {
 				border: 3px solid $red-primary;
 				background-color: $red-secondary;
@@ -61,6 +65,7 @@ export default {
 			}
 		}
 	}
+
 	&__logo {
 		img {
 			height: 25vh;
@@ -68,10 +73,18 @@ export default {
 		}
 	}
 }
+
+.center {
+	height: 100%;
+	width: 100%;
+}
+
 .top {
-	top: 0;
+	display: flex;
+	align-items: flex-start;
 }
 .bot {
-	bottom: 0;
+	display: flex;
+	align-items: flex-end;
 }
 </style>
