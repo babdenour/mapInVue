@@ -44,7 +44,7 @@ export default {
 	}
 
 	&__list {
-		height: 52vh;
+		height: 50vh;
 		width: 90%;
 	}
 }
