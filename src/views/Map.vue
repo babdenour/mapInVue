@@ -47,6 +47,5 @@ export default {
 	padding: 0.3rem;
 	height: 50vh;
 	width: 90%;
-	margin-bottom: 0.6rem;
 }
 </style>

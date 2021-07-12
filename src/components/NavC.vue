@@ -20,8 +20,10 @@ export default {
 		</router-link>
 
 		<!-- active while List button not clicked -->
-		<input class="nav__input" name="recherche" placeholder="🔍" type="text" />
-		<input class="nav__input" type="submit" />
+		<form action="" method="post">
+			<input class="nav__input" name="recherche" placeholder="🔍" type="text" />
+			<input class="nav__input" type="submit" />
+		</form>
 	</div>
 </template>
 
